@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto
+}
+#nav_bar {
+    float: left;
+    display: block;
+    width: 80px;
+}
+#map-canvas {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0 
+} 
+#full-map {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#hover-dot {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+#left-blurb-text {
+    font-size: small;
+    display: none;
+    background-color: #C2C2A3;
+    font-style: italic
+}
+.marker {
+    color: #B26B00;
+    font-weight: bold;
+
+}
